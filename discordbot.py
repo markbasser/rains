@@ -107,7 +107,7 @@ async def loop():
         channel = client.get_channel(CHANNEL_ID)
         await channel.send('/rain BGPT 150 ActiveUserOnly :rain::BGPT02::gn:')
           
-    if now == '14:08':
+    if now == '14:19':
         channel = client.get_channel(CHANNEL_ID)
         await channel.send('/rain BGPT 50 ActiveUserOnly :rain::BGPT02::gn:')
         
