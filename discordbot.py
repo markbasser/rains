@@ -1,15 +1,14 @@
-#coding:UTF-8
 import os
 import traceback
 import discord
 from discord.ext import tasks
 from datetime import datetime 
 
-bot = commands.Bot(command_prefix='/')
 token = os.environ['DISCORD_BOT_TOKEN']
 CHANNEL_ID =698653628176531478  #チャンネルID
-client = discord.Client()  # 接続に使用するオブジェクト
 
+# 接続に必要なオブジェクトを生成
+client = discord.Client()
 
 @client.event
 async def on_ready():
@@ -21,7 +20,6 @@ async def on_ready():
     print('------')
 
 
-@client.event
 # 60秒に一回ループ
 @tasks.loop(seconds=60)
 async def loop():
@@ -107,7 +105,7 @@ async def loop():
         channel = client.get_channel(CHANNEL_ID)
         await channel.send('/rain BGPT 150 ActiveUserOnly <:good01:699581068285706301><:BGPT02:698471366004965406> <:rain:699585875687899247><:gn:699792795363311676> ')
 
-    if now == '15:55':
+    if now == '16:09':
         channel = client.get_channel(CHANNEL_ID)
         await channel.send('/rain JPYN 5 ActiveUserOnly <:good01:699581068285706301>🌈 <:JPYNdisco:698471276498649168><:rain:699585875687899247>')
         
@@ -115,6 +113,5 @@ async def loop():
 
 #ループ処理実行
 loop.start()
-
 # Botの起動とDiscordサーバーへの接続
 client.run(token)
