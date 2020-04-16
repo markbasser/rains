@@ -88,11 +88,11 @@ async def loop():
 
     if now == '12:32':
         channel = client.get_channel(CHANNEL_ID)
-        await channel.send('/rain BGPT 150 ActiveUserOnly <:rain:699585875687899247><:BGPT02:698471366004965406>')
+        await channel.send('/rain BGPT 100 ActiveUserOnly <:rain:699585875687899247><:BGPT02:698471366004965406>')
 
     if now == '12:34':
         channel = client.get_channel(CHANNEL_ID)
-        await channel.send('/rain BEN 100 ActiveUserOnly <:rain:699585875687899247><:BENKEICOIN04:698471407650209832> ')
+        await channel.send('/rain BEN 70 ActiveUserOnly <:rain:699585875687899247><:BENKEICOIN04:698471407650209832> ')
 
     if now == '12:36':
         channel = client.get_channel(CHANNEL_ID)
@@ -109,6 +109,16 @@ async def loop():
     if now == '19:05':
         channel = client.get_channel(CHANNEL_ID)
         await channel.send('/rain JPYN 50 ActiveUserOnly <:good01:699581068285706301>🌈 <:JPYNdisco:698471276498649168><:rain:699585875687899247>')
+    
+
+    if now == '21:30':
+        channel = client.get_channel(CHANNEL_ID)
+        await channel.send('/rain BGPT 100 ActiveUserOnly <:good01:699581068285706301><:BGPT02:698471366004965406> <:rain:699585875687899247>')
+
+
+    if now == '22:00':
+        channel = client.get_channel(CHANNEL_ID)
+        await channel.send('/rain JPYN 20 ActiveUserOnly <:good01:699581068285706301>🌈 <:JPYNdisco:698471276498649168>HelloAll⭐')
         
         
 
