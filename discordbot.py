@@ -1,7 +1,5 @@
 #coding:UTF-8
-from discord.ext import commands
 import os
-import traceback
 import discord
 from discord.ext import tasks
 from datetime import datetime 
@@ -11,15 +9,6 @@ CHANNEL_ID =698653628176531478  #チャンネルID
 
 # 接続に必要なオブジェクトを生成
 client = discord.Client()
-
-@client.event
-async def on_ready():
-    """起動時に通知してくれる処理"""
-    print('ログインしました')
-    print(client.user.name)  # ボットの名前
-    print(client.user.id)  # ボットのID
-    print(discord.__version__)  # discord.pyのバージョン
-    print('------')
 
 
 # 60秒に一回ループ
@@ -107,7 +96,7 @@ async def loop():
         channel = client.get_channel(CHANNEL_ID)
         await channel.send('/rain BGPT 150 ActiveUserOnly :rain::BGPT02::gn:')
           
-    if now == '14:19':
+    if now == '14:':
         channel = client.get_channel(CHANNEL_ID)
         await channel.send('/rain BGPT 50 ActiveUserOnly :rain::BGPT02::gn:')
         
