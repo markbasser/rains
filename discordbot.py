@@ -1,13 +1,26 @@
 #coding:UTF-8
+from discord.ext import commands
+import os
+import traceback
 import discord
 from discord.ext import tasks
 from datetime import datetime 
 
-token = os.environ['DISCORD_BOT_TOKEN'] #トークン
-CHANNEL_ID = os.environ['CHANNEL_ID']  #チャンネルID
+token = os.environ['DISCORD_BOT_TOKEN']#トークン
+CHANNEL_ID =698653628176531478  #チャンネルID
 
 # 接続に必要なオブジェクトを生成
 client = discord.Client()
+
+@client.event
+async def on_ready():
+    """起動時に通知してくれる処理"""
+    print('ログインしました')
+    print(client.user.name)  # ボットの名前
+    print(client.user.id)  # ボットのID
+    print(discord.__version__)  # discord.pyのバージョン
+    print('------')
+
 
 # 60秒に一回ループ
 @tasks.loop(seconds=60)
@@ -90,11 +103,11 @@ async def loop():
         channel = client.get_channel(CHANNEL_ID)
         await channel.send('/rain JPYN 25 ActiveUserOnly :rain::JPYNdisco::gn:')  
 
-    if now == '00:31
+    if now == '00:31':
         channel = client.get_channel(CHANNEL_ID)
         await channel.send('/rain BGPT 150 ActiveUserOnly :rain::BGPT02::gn:')
           
-    if now == '13:45
+    if now == '14:08':
         channel = client.get_channel(CHANNEL_ID)
         await channel.send('/rain BGPT 50 ActiveUserOnly :rain::BGPT02::gn:')
         
@@ -104,3 +117,5 @@ async def loop():
 loop.start()
 # Botの起動とDiscordサーバーへの接続
 client.run(token)
+
+
