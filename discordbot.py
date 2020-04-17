@@ -27,6 +27,10 @@ async def loop():
     # 現在の時刻
     now = datetime.now().strftime('%H:%M')
     
+    if now == '00:25':
+        channel = client.get_channel(CHANNEL_ID)
+        await channel.send('How are UZURAS BOT doing today?') 
+    
     if now == '00:29':
         channel = client.get_channel(CHANNEL_ID)
         await channel.send('@everyone Mornin!Rain☔ is 1min later.<:good01:699581068285706301>51120671>')  
@@ -53,7 +57,7 @@ async def loop():
 
     if now == '01:30':
         channel = client.get_channel(CHANNEL_ID)
-        await channel.send('/throw JPYN 30 3 EquallyDistributed  <:good01:699581068285706301><:JPYNdisco:698471276498649168>⚾Pls receive☞/catch')
+        await channel.send('/throw JPYN 60 3 EquallyDistributed  <:good01:699581068285706301><:JPYNdisco:698471276498649168>⚾Pls receive→/catch')
 
     if now == '02:30':
         channel = client.get_channel(CHANNEL_ID)
@@ -81,13 +85,21 @@ async def loop():
             
     if now == '03:39':
         channel = client.get_channel(CHANNEL_ID)
-        await channel.send('/throw JPYN 400 4 EquallyDistributed  <:JPYNdisco:698471276498649168>⚾Pls receive☞/catch')
+        await channel.send('/throw JPYN 400 4 EquallyDistributed  <:JPYNdisco:698471276498649168><:JPYNdisco:698471276498649168><:JPYNdisco:698471276498649168>Pls receive→/catch')
     
-    if now == '03:40':
+    if now == '03:42':
         channel = client.get_channel(CHANNEL_ID)
-        await channel.send('@here 👆/catch <:heart02:699580174911668225>See you later!🌟') 
+        await channel.send('/throw BGPT 1200 4 EquallyDistributed  <:good01:699581068285706301><:BGPT02:698471366004965406><:BGPT02:698471366004965406><:BGPT02:698471366004965406>Pls receive→/catch')
+    
+    if now == '03:45':
+        channel = client.get_channel(CHANNEL_ID)
+        await channel.send('<:bye:699863270802325604>See you!またね👋') 
+        
+    if now == '04:37':
+        channel = client.get_channel(CHANNEL_ID)
+        await channel.send('@here 👆/catch<:kaokanga:699072678614663210>? See you later!') 
 
-    if now == '04:30':
+    if now == '04:40':
         channel = client.get_channel(CHANNEL_ID)
         await channel.send('/rain JPYN 10 ActiveUserOnly  🌈 <:JPYNdisco:698471276498649168> ')   
         
@@ -137,13 +149,13 @@ async def loop():
     
     if now == '10:30':
         channel = client.get_channel(CHANNEL_ID)
-        await channel.send('/rain BGPT 100 ActiveUserOnly  <:good01:699581068285706301><:rain:699585875687899247><:BGPT02:698471366004965406>') 
+        await channel.send('/rain BGPT 150 ActiveUserOnly  <:good01:699581068285706301><:rain:699585875687899247><:BGPT02:698471366004965406>') 
         
     if now == '10:33':
         channel = client.get_channel(CHANNEL_ID)
-        await channel.send('/throw JPYN 80 4 EquallyDistributed  <:good01:699581068285706301><:JPYNdisco:698471276498649168> ⚾Pls receive☞/catch')  
+        await channel.send('/throw JPYN 120 4 EquallyDistributed  <:good01:699581068285706301><:JPYNdisco:698471276498649168> ⚾Pls receive☞/catch')  
 
-    if now == '10:34':
+    if now == '10:36':
         channel = client.get_channel(CHANNEL_ID)
         await channel.send('@everyone 👆/catch <:heart02:699580174911668225>See you sometimes!<:star1:699582964853375018>')    
         
@@ -167,43 +179,75 @@ async def loop():
         channel = client.get_channel(CHANNEL_ID)
         await channel.send('/rain BEN 500 ActiveUserOnly  <:rain:699585875687899247><:BENKEICOIN04:698471407650209832><:benkeicoinsl:698471387064696833> ')
 
-    if now == '12:36':
-        channel = client.get_channel(CHANNEL_ID)
-        await channel.send('/throw JPYN 39 3 EquallyDistributed  <:JPYNdisco:698471276498649168> ⚾Pls receive☞/catch') 
-   
     if now == '12:37':
         channel = client.get_channel(CHANNEL_ID)
-        await channel.send(' 👆/catch ok?<:heart02:699580174911668225>see you!<:star1:699582964853375018>')  
-        
-    if now == '13:00':
+        await channel.send('/throw JPYN 120 4 EquallyDistributed  <:JPYNdisco:698471276498649168> ⚾Pls receive☞/catch') 
+    
+    if now == '12:38':
         channel = client.get_channel(CHANNEL_ID)
-        await channel.send('@here もうJapanでは22:00頃ですね。今日もあと少しだけRainします。30分後に！It is UTC/13:00. Hello!Rain☔ is 30min later. ')       
+        await channel.send('<:good01:699581068285706301><:cya:699859096794562650> ') 
+   
+    if now == '13:15':
+        channel = client.get_channel(CHANNEL_ID)
+        await channel.send('@everyone 👆/catch ok?<:heart02:699580174911668225>see you!<:star1:699582964853375018>')  
         
     if now == '13:30':
         channel = client.get_channel(CHANNEL_ID)
+        await channel.send('@here もうJapanでは22:30頃?ですよね。todayもあと少しだけRainします。Hello!Rain☔ is 1min later. ')       
+        
+    if now == '13:31':
+        channel = client.get_channel(CHANNEL_ID)
         await channel.send('/rain JPYN 77.7 ActiveUserOnly   <:rain:699585875687899247><:good:699580636448423936> <:JPYNdisco:698471276498649168>')
     
-    if now == '13:32':
+    if now == '13:34':
         channel = client.get_channel(CHANNEL_ID)
         await channel.send('/rain BEN 300 ActiveUserOnly  <:rain:699585875687899247><:good:699580636448423936> <:BENKEICOIN04:698471407650209832><:benkeicoinsl:698471387064696833> ')
     
-    if now == '13:35':
+    if now == '13:37':
         channel = client.get_channel(CHANNEL_ID)
         await channel.send('/rain BGPT 777.77 ActiveUserOnly  <:rain:699585875687899247><:BGPT02:698471366004965406>')
     
-    if now == '13:37':
+    if now == '13:40':
         channel = client.get_channel(CHANNEL_ID)
-        await channel.send('@here <:zzz:699581950356226058><:gn:699792795363311676> 日本のみんなはそろそろおやすみなさい！It is UTC/13:37. Hello!Rain☔ is 30min later👋 コロナには気を付けて！<:corona:699588627868418070>Watch out for corona!→ #┃covid-19🦠news ')       
+        await channel.send('@here <:zzz:699581950356226058><:gn:699792795363311676> JapanのEveryoneはそろそろGoodNight！☔is 30min later👋 コロナには気を付けて！<:corona:699588627868418070>Watch out for corona!→ #┃covid-19🦠news ')       
                 
-    if now == '14:47':
+    if now == '14:10':
         channel = client.get_channel(CHANNEL_ID)
         await channel.send('/rain JPYN 10 ActiveUserOnly  <:good01:699581068285706301><:rain:699585875687899247><:JPYNdisco:698471276498649168><:gn:699792795363311676> ')  
 
-    if now == '15:00':
+    if now == '14:13':
+        channel = client.get_channel(CHANNEL_ID)
+        await channel.send('/throw JPYN 80 4 EquallyDistributed  <:JPYNdisco:698471276498649168> ⚾Pls receive→/catch') 
+   
+    if now == '14:15':
+        channel = client.get_channel(CHANNEL_ID)
+        await channel.send('/throw BEN 310.8 4 EquallyDistributed  <:JPYNdisco:698471276498649168> ⚾Pls receive→/catch')      
+    
+    if now == '14:17':
+        channel = client.get_channel(CHANNEL_ID)
+        await channel.send('/throw KENJ 800 4 EquallyDistributed  <:kenj:700136543003607101> ⚾Pls receive→/catch')
+        
+    if now == '14:19':
+        channel = client.get_channel(CHANNEL_ID)
+        await channel.send('<:bye:699863270802325604>See you! ') 
+        
+    if now == '15:29':
+        channel = client.get_channel(CHANNEL_ID)
+        await channel.send('@here 👆/catch<:aloha:699581550777597992> ') 
+        
+    if now == '15:30':
         channel = client.get_channel(CHANNEL_ID)
         await channel.send('/rain BGPT 50 ActiveUserOnly  <:good01:699581068285706301><:BGPT02:698471366004965406> <:rain:699585875687899247><:gn:699792795363311676> ')
-
-    if now == '19:05':
+   
+    if now == '16:00':
+        channel = client.get_channel(CHANNEL_ID)
+        await channel.send('/rain kenj 50 ActiveUserOnly  ☔<:kenj:700136543003607101><:DISCO:699373482240245892>')
+        
+    if now == '16:55':
+        channel = client.get_channel(CHANNEL_ID)
+        await channel.send('/rain BGPT 77.7 ActiveUserOnly  <:rain:699585875687899247><:BGPT02:698471366004965406>')   
+        
+    if now == '17:40':
         channel = client.get_channel(CHANNEL_ID)
         await channel.send('/rain JPYN 10 ActiveUserOnly  <:good01:699581068285706301>🌈<:JPYNdisco:698471276498649168><:rain:699585875687899247>')
     
@@ -225,13 +269,17 @@ async def loop():
    
     if now == '22:30':
         channel = client.get_channel(CHANNEL_ID)
-        await channel.send('Japan <:cafe:699769671234355230> みなさん🌟おはようございます。<:gm:699792760651120671> 今日も良い一日を！【おみくじ】←で運勢をどうぞ')
+        await channel.send('Dear japanese<:cafe:699769671234355230>Everyone🌟おはようございます!<:gm:699792760651120671> Have a nice day today！【おみくじ】←で運勢を')
 
     if now == '23:00':
         channel = client.get_channel(CHANNEL_ID)
         await channel.send('/rain JPYN 20 ActiveUserOnly  <:good01:699581068285706301>🌈<:JPYNdisco:698471276498649168>HelloAll⭐')        
-        
-    if now == '23:50':
+    
+    if now == '23:30':
+        channel = client.get_channel(CHANNEL_ID)
+        await channel.send('/rain BEN 50 ActiveUserOnly  <:good01:699581068285706301>🌈<:BENKEICOIN04:698471407650209832><:benkeicoinsl:698471387064696833> HelloAll⭐')
+    
+    if now == '23:58':
         channel = client.get_channel(CHANNEL_ID)
         await channel.send('/rain JPYN 20 ActiveUserOnly  <:good01:699581068285706301>🌈<:JPYNdisco:698471276498649168>HelloAll⭐')
   
