@@ -29,7 +29,7 @@ async def loop():
     
     if now == '00:29':
         channel = client.get_channel(CHANNEL_ID)
-        await channel.send('@here Mornin!Rain☔ is 1min later.<:good01:699581068285706301>51120671>')  
+        await channel.send('@everyone Mornin!Rain☔ is 1min later.<:good01:699581068285706301>51120671>')  
     
     if now == '00:30':
         channel = client.get_channel(CHANNEL_ID)
@@ -61,7 +61,7 @@ async def loop():
 
     if now == '03:29':
         channel = client.get_channel(CHANNEL_ID)
-        await channel.send('@here <:hello:699779689127870514> Rain☔ is 1min later.<:good01:699581068285706301>51120671>✨')   
+        await channel.send('@everyone <:hello:699779689127870514> Rain☔ is 1min later.<:good01:699581068285706301>51120671>✨')   
         
     if now == '03:30':
         channel = client.get_channel(CHANNEL_ID)
@@ -85,7 +85,7 @@ async def loop():
     
     if now == '03:40':
         channel = client.get_channel(CHANNEL_ID)
-        await channel.send('👆/catch <:heart02:699580174911668225>See you later!🌟') 
+        await channel.send('@here 👆/catch <:heart02:699580174911668225>See you later!🌟') 
 
     if now == '04:30':
         channel = client.get_channel(CHANNEL_ID)
@@ -145,7 +145,7 @@ async def loop():
 
     if now == '10:34':
         channel = client.get_channel(CHANNEL_ID)
-        await channel.send('👆/catch <:heart02:699580174911668225>See you sometimes!<:star1:699582964853375018>')    
+        await channel.send('@everyone 👆/catch <:heart02:699580174911668225>See you sometimes!<:star1:699582964853375018>')    
         
     if now == '11:30':
         channel = client.get_channel(CHANNEL_ID)
@@ -153,7 +153,7 @@ async def loop():
     
     if now == '12:29':
         channel = client.get_channel(CHANNEL_ID)
-        await channel.send('@here <:hello:699779689127870514>Rain<:rain:699585875687899247>is 1min later.<:good01:699581068285706301>51120671>')  
+        await channel.send('@everyone <:hello:699779689127870514>Rain<:rain:699585875687899247>is 1min later.<:good01:699581068285706301>51120671>')  
 
     if now == '12:30':
         channel = client.get_channel(CHANNEL_ID)
@@ -173,7 +173,7 @@ async def loop():
    
     if now == '12:37':
         channel = client.get_channel(CHANNEL_ID)
-        await channel.send('👆/catch ok?<:heart02:699580174911668225>see you!<:star1:699582964853375018>')   
+        await channel.send(' 👆/catch ok?<:heart02:699580174911668225>see you!<:star1:699582964853375018>')   
     
     if now == '13:30':
         channel = client.get_channel(CHANNEL_ID)
