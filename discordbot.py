@@ -177,7 +177,7 @@ async def loop():
         
     if now == '13:00':
         channel = client.get_channel(CHANNEL_ID)
-        await channel.send('@here もう日本では22:00ですね。今日もあと少しだけRainします。30分後に！It is 13:00. Hello!Rain☔ is 30min later. ')       
+        await channel.send('@here もうJapanでは22:00頃ですね。今日もあと少しだけRainします。30分後に！It is UTC/13:00. Hello!Rain☔ is 30min later. ')       
         
     if now == '13:30':
         channel = client.get_channel(CHANNEL_ID)
@@ -193,7 +193,7 @@ async def loop():
     
     if now == '13:37':
         channel = client.get_channel(CHANNEL_ID)
-        await channel.send('@here <:zzz:699581950356226058><:gn:699792795363311676> 日本のみんなはそろそろおやすみなさい！It is 13:00. Hello!Rain☔ is 30min later👋 コロナには気を付けて！<:corona:699588627868418070>Watch out for corona!→ #┃covid-19🦠news ')       
+        await channel.send('@here <:zzz:699581950356226058><:gn:699792795363311676> 日本のみんなはそろそろおやすみなさい！It is UTC/13:37. Hello!Rain☔ is 30min later👋 コロナには気を付けて！<:corona:699588627868418070>Watch out for corona!→ #┃covid-19🦠news ')       
                 
     if now == '14:47':
         channel = client.get_channel(CHANNEL_ID)
