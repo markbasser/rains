@@ -159,11 +159,11 @@ async def loop():
         channel = client.get_channel(CHANNEL_ID)
         await channel.send('@everyone 👆/catch <:heart02:699580174911668225>See you sometimes!<:star1:699582964853375018>')    
         
-    if now == '11:30':
+    if now == '11:25':
         channel = client.get_channel(CHANNEL_ID)
         await channel.send('/rain kenj 200 ActiveUserOnly  ☔<:kenj:700136543003607101><:sangras01:699579409220370514>')
         
-    if now == '11:25':
+    if now == '11:30':
         channel = client.get_channel(CHANNEL_ID)
         await channel.send('How are UZURAS Wallet doing Now～!?　<:uzu2:700858786960900117>...⚡...<:uzu1:700858878879072303>‼Sorry!') 
     
