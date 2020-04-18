@@ -29,7 +29,7 @@ async def loop():
     
     if now == '00:25':
         channel = client.get_channel(CHANNEL_ID)
-        await channel.send('How are UZURAS BOT doing today?') 
+        await channel.send('How are UZURAS BOT doing today?<:uzu2:700858786960900117>.....<:uzu2:700858786960900117>‼') 
     
     if now == '00:29':
         channel = client.get_channel(CHANNEL_ID)
