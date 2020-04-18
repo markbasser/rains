@@ -59,7 +59,7 @@ async def loop():
         channel = client.get_channel(CHANNEL_ID)
         await channel.send('/throw JPYN 60 3 EquallyDistributed  <:good01:699581068285706301><:JPYNdisco:698471276498649168>⚾Pls receive→/catch')
     
-    if now == '01:58':
+    if now == '01:59':
         channel = client.get_channel(CHANNEL_ID)
         await channel.send('/rain BEN 77.7 ActiveUserOnly  <:good01:699581068285706301>🌈 <:benkeicoinsl:698471387064696833> ')  
         
@@ -205,7 +205,7 @@ async def loop():
         
     if now == '13:30':
         channel = client.get_channel(CHANNEL_ID)
-        await channel.send('@here もうJapanでは22:30頃?ですよね。todayもあと少しだけRainします。Hello!Rain☔ is 1min later. ')       
+        await channel.send('@here もうJapanでは深夜就寝前💤?ですよね。todayもあと少しだけRainします。Hello!Rain☔ is 1min later. ')       
         
     if now == '13:31':
         channel = client.get_channel(CHANNEL_ID)
