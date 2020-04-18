@@ -51,7 +51,7 @@ async def loop():
         channel = client.get_channel(CHANNEL_ID)
         await channel.send('/rain JPYN 250 ActiveUserOnly  <:good01:699581068285706301><:gm:699792760651120671><:JPYNdisco:698471276498649168>')  
   
-    if now == '03:38':
+    if now == '00:38':
         channel = client.get_channel(CHANNEL_ID)
         await channel.send('<:heart02:699580174911668225>Okay,later👋')     
 
@@ -162,6 +162,10 @@ async def loop():
     if now == '11:30':
         channel = client.get_channel(CHANNEL_ID)
         await channel.send('/rain kenj 200 ActiveUserOnly  ☔<:kenj:700136543003607101><:sangras01:699579409220370514>')
+        
+    if now == '11:25':
+        channel = client.get_channel(CHANNEL_ID)
+        await channel.send('How are UZURAS Wallet doing Now～!?　<:uzu2:700858786960900117>...⚡...<:uzu1:700858878879072303>‼Sorry!') 
     
     if now == '12:29':
         channel = client.get_channel(CHANNEL_ID)
