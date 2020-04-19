@@ -101,7 +101,7 @@ async def loop():
      
     if now == '03:00':
         channel = client.get_channel(CHANNEL_ID)
-        await channel.send('/throw 29coin 29292.929 3 EquallyDistributed   🍖🍗Plz receive→/catch<:hai_kao:699072592987947117>29meat🍖🍗')
+        await channel.send('/throw 29coin 29292.929 4 EquallyDistributed   🍖🍗Plz receive→/catch<:hai_kao:699072592987947117>29meat🍖🍗')
 
     if now == '03:13':
         channel = client.get_channel(CHANNEL_ID)
@@ -109,8 +109,12 @@ async def loop():
         
     if now == '03:14':
         channel = client.get_channel(CHANNEL_ID)
-        await channel.send('Plz.<:kanngaeru:699072662382837881>I am hungry again, so give me @:rainbow:Rains:umbrella: 29coin[meatcoin]Tip🍖')
+        await channel.send('Plz.<:kanngaeru:699072662382837881> give me?【/tip 29coin *** @🌈Rains☔ 】Tip🍖')
 
+    if now == '03:27':
+        channel = client.get_channel(CHANNEL_ID)
+        await channel.send('<:good:699580636448423936>Thank you! for the MeatCoin🥩29coin<:ty:699857337980026930>Tip! Will eat later.🍖')      
+        
     if now == '03:28':
         channel = client.get_channel(CHANNEL_ID)
         await channel.send('/rain KENJ 50 ActiveUserOnly  ☔<:kenj:700136543003607101>')     
@@ -190,11 +194,35 @@ async def loop():
     if now == '08:00':
         channel = client.get_channel(CHANNEL_ID)
         await channel.send('/rain JPYN 35 ActiveUserOnly  <:rain:699585875687899247><:JPYNdisco:698471276498649168><:hello:699779689127870514>')
+     
+    if now == '08:30':
+        channel = client.get_channel(CHANNEL_ID)
+        await channel.send('<:suika_paku:699072728153587782> hungry! I want to eat meat again! Meat🥩, meat🍖, meat!🍗肉29coin?!hehe')    
+    
+    if now == '08:31':
+        channel = client.get_channel(CHANNEL_ID)
+        await channel.send('/throw 29coin 146460 5 EquallyDistributed   🍖meat!meat!🍗Plz receive→/catch<:hai_kao:699072592987947117>29meat!肉！🥩')
+
+    if now == '08:45':
+        channel = client.get_channel(CHANNEL_ID)
+        await channel.send('🥴💦Tummy full. ate too much. The meat is gone!🥩🥩🥩!Sorry..hehe..ww')
+        
+    if now == '08:46':
+        channel = client.get_channel(CHANNEL_ID)
+        await channel.send('Plz.<:kanngaeru:699072662382837881>I am hungry again, so give me 【/tip 29coin *** @🌈Rains☔ 】[meatcoin]Tip🍖')
+   
+    if now == '09:25':
+        channel = client.get_channel(CHANNEL_ID)
+        await channel.send('<:good:699580636448423936>Thank you!for the MeatCoin(29coin)Tip! I will eat meat again tomorrow.🍖<:ty:699857337980026930>')
         
     if now == '09:30':
         channel = client.get_channel(CHANNEL_ID)
-        await channel.send('/rain JPYN 40 ActiveUserOnly  <:good01:699581068285706301><:rain:699585875687899247> <:JPYNdisco:698471276498649168> ')
+        await channel.send('/rain JPYN 40 ActiveUserOnly  <:good01:699581068285706301><:rain:699585875687899247><:JPYNdisco:698471276498649168> ')
    
+    if now == '09:55':
+        channel = client.get_channel(CHANNEL_ID)
+        await channel.send('<:niko_shita:699072695823892561>Plz.Meat.Meat.beef?pork?chicken?mutton?29Tip🍖')
+
     if now == '10:00':
         channel = client.get_channel(CHANNEL_ID)
         await channel.send('<:aloha:699581550777597992>Hello,how are you❓ ') 
