@@ -105,11 +105,11 @@ async def loop():
 
     if now == '03:13':
         channel = client.get_channel(CHANNEL_ID)
-        await channel.send('<:guru:699579775500681246>💦I’m so full that I can’t breathe.  🍖🍗満腹!Sorry....ww')
+        await channel.send('<:guru:699579775500681246>💦I’m so full that I can’t breathe.  🍖🍗!Sorry....ww')
         
     if now == '03:14':
         channel = client.get_channel(CHANNEL_ID)
-        await channel.send('Plz.<:kanngaeru:699072662382837881>スグお腹すくから私に肉コイン🍗チップしてI am hungry again, so give me a 29coin[meat coin] Tip🍖')
+        await channel.send('Plz.<:kanngaeru:699072662382837881>I am hungry again, so give me @:rainbow:Rains:umbrella:a 29coin[meatcoin] Tip🍖')
 
     if now == '03:28':
         channel = client.get_channel(CHANNEL_ID)
