@@ -94,6 +94,10 @@ async def loop():
     if now == '02:30':
         channel = client.get_channel(CHANNEL_ID)
         await channel.send('/rain JPYN 10 ActiveUserOnly  🌈 <:JPYNdisco:698471276498649168> ')
+        
+    if now == '02:58':
+        channel = client.get_channel(CHANNEL_ID)
+        await channel.send('https://media.discordapp.net/attachments/701765831268368474/701767349828714606/hg.png ')    
 
     if now == '02:59':
         channel = client.get_channel(CHANNEL_ID)
@@ -110,15 +114,23 @@ async def loop():
     if now == '03:14':
         channel = client.get_channel(CHANNEL_ID)
         await channel.send('Plz.<:kanngaeru:699072662382837881> give me?【/tip 29coin *** @🌈Rains☔ 】Tip🍖')
+        
+    if now == '03:16':
+        channel = client.get_channel(CHANNEL_ID)
+        await channel.send('https://media.discordapp.net/attachments/701765831268368474/701767323304067133/hty.png ') 
 
-    if now == '03:27':
+    if now == '03:26':
         channel = client.get_channel(CHANNEL_ID)
         await channel.send('<:good:699580636448423936>Thank you! for the MeatCoin🥩29coin<:ty:699857337980026930>Tip! Will eat later.🍖')      
         
-    if now == '03:28':
+    if now == '03:27':
         channel = client.get_channel(CHANNEL_ID)
         await channel.send('/rain KENJ 50 ActiveUserOnly  ☔<:kenj:700136543003607101>')     
         
+    if now == '03:28':
+        channel = client.get_channel(CHANNEL_ID)
+        await channel.send('https://cdn.discordapp.com/attachments/701765831268368474/701767123252543498/iku.png')     
+         
     if now == '03:29':
         channel = client.get_channel(CHANNEL_ID)
         await channel.send('@everyone <:hello:699779689127870514> Rain☔ is 1min later.<:good01:699581068285706301>✨')   
@@ -141,19 +153,23 @@ async def loop():
             
     if now == '03:38':
         channel = client.get_channel(CHANNEL_ID)
-        await channel.send('/throw JPYN 400 4 EquallyDistributed  <:JPYNdisco:698471276498649168><:JPYNdisco:698471276498649168><:JPYNdisco:698471276498649168>Pls receive→/catch')
+        await channel.send('/throw JPYN 400 8 EquallyDistributed  <:JPYNdisco:698471276498649168><:JPYNdisco:698471276498649168><:JPYNdisco:698471276498649168>Pls receive→/catch')
     
     if now == '03:40':
         channel = client.get_channel(CHANNEL_ID)
-        await channel.send('/throw BGPT 1200 4 EquallyDistributed  <:good01:699581068285706301><:BGPT02:698471366004965406><:BGPT02:698471366004965406><:BGPT02:698471366004965406>Pls receive→/catch')
+        await channel.send('/throw BGPT 1200 8 EquallyDistributed  <:good01:699581068285706301><:BGPT02:698471366004965406><:BGPT02:698471366004965406><:BGPT02:698471366004965406>Pls receive→/catch')
     
     if now == '03:42':
         channel = client.get_channel(CHANNEL_ID)
-        await channel.send('/throw BEN 100 4 AttenuationDistributed  <:BENKEICOIN04:698471407650209832><:benkeicoinsl:698471387064696833>⚾Plz receive→/catch')
+        await channel.send('/throw BEN 200 8 AttenuationDistributed  <:BENKEICOIN04:698471407650209832><:benkeicoinsl:698471387064696833>⚾Plz receive→/catch')
       
+    if now == '03:44':
+        channel = client.get_channel(CHANNEL_ID)
+        await channel.send('https://media.discordapp.net/attachments/701765831268368474/701767323304067133/hty.png') 
+          
     if now == '03:45':
         channel = client.get_channel(CHANNEL_ID)
-        await channel.send('<:bye:699863270802325604>See you!またね👋') 
+        await channel.send('<:bye:699863270802325604>See you!またね👋')  
         
     if now == '04:37':
         channel = client.get_channel(CHANNEL_ID)
@@ -170,6 +186,10 @@ async def loop():
     if now == '05:30':
         channel = client.get_channel(CHANNEL_ID)
         await channel.send('/rain kenj 200 ActiveUserOnly  ☔<:kenj:700136543003607101>')
+        
+    if now == '05:31':
+        channel = client.get_channel(CHANNEL_ID)
+        await channel.send('https://cdn.discordapp.com/attachments/701765831268368474/701767323304067133/hty.png ')    
         
     if now == '06:00':
         channel = client.get_channel(CHANNEL_ID)
@@ -210,7 +230,11 @@ async def loop():
     if now == '08:46':
         channel = client.get_channel(CHANNEL_ID)
         await channel.send('Plz.<:kanngaeru:699072662382837881>I am hungry again, so give me 【/tip 29coin *** @🌈Rains☔ 】[meatcoin]Tip🍖')
-   
+    
+    if now == '09:00':
+        channel = client.get_channel(CHANNEL_ID)
+        await channel.send('https://media.discordapp.net/attachments/701765831268368474/701767323304067133/hty.png ')
+
     if now == '09:25':
         channel = client.get_channel(CHANNEL_ID)
         await channel.send('<:good:699580636448423936>Thank you!for the MeatCoin(29coin)Tip! I will eat meat again tomorrow.🍖<:ty:699857337980026930>')
@@ -223,13 +247,21 @@ async def loop():
         channel = client.get_channel(CHANNEL_ID)
         await channel.send('<:niko_shita:699072695823892561>Plz.Meat.Meat.beef?pork?chicken?mutton?29Tip🍖')
 
+    if now == '09:57':
+        channel = client.get_channel(CHANNEL_ID)
+        await channel.send('<https://media.discordapp.net/attachments/701765831268368474/701767349828714606/hg.png ') 
+        
     if now == '10:00':
         channel = client.get_channel(CHANNEL_ID)
         await channel.send('<:aloha:699581550777597992>Hello,how are you❓ ') 
-      
+        
     if now == '10:29':
         channel = client.get_channel(CHANNEL_ID)
-        await channel.send('@here <:suika_paku:699072728153587782>After 1min, I”ll ☔Rain a little... ') 
+        await channel.send('@here <:suika_paku:699072728153587782>After 2min, I”ll ☔Rain a little... ') 
+     
+    if now == '10:29':
+        channel = client.get_channel(CHANNEL_ID)
+        await channel.send('https://media.discordapp.net/attachments/701765831268368474/701767123252543498/iku.png') 
     
     if now == '10:30':
         channel = client.get_channel(CHANNEL_ID)
@@ -237,19 +269,23 @@ async def loop():
      
     if now == '10:32':
         channel = client.get_channel(CHANNEL_ID)
-        await channel.send('/throw BEN 100 4 EquallyDistributed  <:BENKEICOIN04:698471407650209832><:benkeicoinsl:698471387064696833>⚾Plz receive→/catch')
+        await channel.send('/throw BEN 300 6 EquallyDistributed  <:BENKEICOIN04:698471407650209832><:benkeicoinsl:698471387064696833>⚾Plz receive→/catch')
     
     if now == '10:33':
         channel = client.get_channel(CHANNEL_ID)
-        await channel.send('/throw JPYN 120 4 EquallyDistributed  <:good01:699581068285706301><:JPYNdisco:698471276498649168> ⚾Plz receive☞/catch')  
+        await channel.send('/throw JPYN 120 6 EquallyDistributed  <:good01:699581068285706301><:JPYNdisco:698471276498649168> ⚾Plz receive☞/catch')  
 
     if now == '10:34':
         channel = client.get_channel(CHANNEL_ID)
-        await channel.send('/throw BGPT 1200 4 EquallyDistributed  <:good01:699581068285706301><:BGPT02:698471366004965406><:BGPT02:698471366004965406><:BGPT02:698471366004965406>Plz receive→/catch')
+        await channel.send('/throw BGPT 1200 8 EquallyDistributed  <:good01:699581068285706301><:BGPT02:698471366004965406><:BGPT02:698471366004965406><:BGPT02:698471366004965406>Plz receive→/catch')
     
     if now == '10:35':
         channel = client.get_channel(CHANNEL_ID)
-        await channel.send('<:cya:699859096794562650>👆/catch')    
+        await channel.send('<:cya:699859096794562650>👆/catch') 
+        
+    if now == '10:36':
+        channel = client.get_channel(CHANNEL_ID)
+        await channel.send('https://cdn.discordapp.com/attachments/701765831268368474/701767323304067133/hty.png ')          
       
     if now == '11:24':
         channel = client.get_channel(CHANNEL_ID)
@@ -286,18 +322,26 @@ async def loop():
     if now == '12:38':
         channel = client.get_channel(CHANNEL_ID)
         await channel.send('<:good01:699581068285706301><:cya:699859096794562650> ') 
+        
+    if now == '10:36':
+        channel = client.get_channel(CHANNEL_ID)
+        await channel.send('https://cdn.discordapp.com/attachments/701765831268368474/701767323304067133/hty.png ')    
    
     if now == '13:15':
         channel = client.get_channel(CHANNEL_ID)
         await channel.send('@everyone 👆/catch ok?<:heart02:699580174911668225>see you!<:star1:699582964853375018>')  
         
+    if now == '10:36':
+        channel = client.get_channel(CHANNEL_ID)
+        await channel.send('https://cdn.discordapp.com/attachments/701765831268368474/701767323304067133/hty.png ')    
+        
     if now == '13:30':
         channel = client.get_channel(CHANNEL_ID)
         await channel.send('@here もうJapanでは深夜就寝前💤?ですよね。todayもあと少しだけRainします。Hello!Rain☔ is 1min later. ')       
         
-    if now == '13:31':
+    if now == '13:33':
         channel = client.get_channel(CHANNEL_ID)
-        await channel.send('/rain JPYN 77.7 ActiveUserOnly   <:rain:699585875687899247><:good:699580636448423936> <:JPYNdisco:698471276498649168>')
+        await channel.send('https://media.discordapp.net/attachments/701765831268368474/701767349828714606/hg.png')
     
     if now == '13:34':
         channel = client.get_channel(CHANNEL_ID)
@@ -310,7 +354,11 @@ async def loop():
     if now == '13:40':
         channel = client.get_channel(CHANNEL_ID)
         await channel.send('@here <:zzz:699581950356226058><:gn:699792795363311676> JapanのEveryoneはそろそろGoodNight！☔is 30min later👋 コロナには気を付けて！<:corona:699588627868418070>Watch out for corona!→ #┃covid-19🦠news ')       
-                
+       
+    if now == '13:41':
+        channel = client.get_channel(CHANNEL_ID)
+        await channel.send('https://cdn.discordapp.com/attachments/701765831268368474/701767323304067133/hty.png ')    
+
     if now == '14:10':
         channel = client.get_channel(CHANNEL_ID)
         await channel.send('/rain JPYN 10 ActiveUserOnly  <:good01:699581068285706301><:rain:699585875687899247><:JPYNdisco:698471276498649168><:gn:699792795363311676> ')  
@@ -363,10 +411,14 @@ async def loop():
         channel = client.get_channel(CHANNEL_ID)
         await channel.send('/rain JPYN 5 ActiveUserOnly  🌈 <:JPYNdisco:698471276498649168> ') 
           
+    if now == '21:29':
+        channel = client.get_channel(CHANNEL_ID)
+        await channel.send('https://cdn.discordapp.com/attachments/701765831268368474/701767349828714606/hg.png ')
+
     if now == '21:30':
         channel = client.get_channel(CHANNEL_ID)
-        await channel.send('/rain BGPT 50 ActiveUserOnly  <:good01:699581068285706301><:BGPT02:698471366004965406> <:rain:699585875687899247>')
-
+        await channel.send('/rain BGPT 50 ActiveUserOnly  <:good01:699581068285706301><:BGPT02:698471366004965406> <:rain:699585875687899247>')  
+        
     if now == '22:00':
         channel = client.get_channel(CHANNEL_ID)
         await channel.send('/rain JPYN 20 ActiveUserOnly  <:good01:699581068285706301>🌈<:JPYNdisco:698471276498649168>HelloAll⭐')
