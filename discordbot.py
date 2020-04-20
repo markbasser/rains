@@ -321,7 +321,7 @@ async def loop():
    
     if now == '14:15':
         channel = client.get_channel(CHANNEL_ID)
-        await channel.send('/throw BEN 310.8 4 EquallyDistributed  <:JPYNdisco:698471276498649168> ⚾Plz receive→/catch')      
+        await channel.send('/throw BEN 310.8 4 EquallyDistributed  <:benkeicoinsl:698471387064696833>  ⚾Plz receive→/catch')      
     
     if now == '14:17':
         channel = client.get_channel(CHANNEL_ID)
@@ -341,7 +341,7 @@ async def loop():
    
     if now == '16:00':
         channel = client.get_channel(CHANNEL_ID)
-        await channel.send('/rain kenj 50 ActiveUserOnly  ☔<:kenj:700136543003607101><:DISCO:699373482240245892>')
+        await channel.send('/rain kenj 50 ActiveUserOnly  ☔<:kenj:700136543003607101> ')
         
     if now == '16:55':
         channel = client.get_channel(CHANNEL_ID)
@@ -353,7 +353,7 @@ async def loop():
     
     if now == '18:30':
         channel = client.get_channel(CHANNEL_ID)
-        await channel.send('/rain kenj 50 ActiveUserOnly  ☔<:kenj:700136543003607101><:DISCO:699373482240245892>')
+        await channel.send('/rain kenj 50 ActiveUserOnly  ☔<:kenj:700136543003607101> ')
     
     if now == '19:30':
         channel = client.get_channel(CHANNEL_ID)
