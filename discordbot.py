@@ -330,10 +330,6 @@ async def loop():
     if now == '12:39':
         channel = client.get_channel(CHANNEL_ID)
         await channel.send('https://cdn.discordapp.com/attachments/701765831268368474/701767323304067133/hty.png ') 
-        
-　  if now == '13:05':
-        channel = client.get_channel(CHANNEL_ID)
-        await channel.send('https://media.discordapp.net/attachments/701765831268368474/701778794704273428/jpynhello.png ')  
       
     if now == '13:14':
         channel = client.get_channel(CHANNEL_ID)
