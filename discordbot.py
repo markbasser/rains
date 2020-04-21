@@ -105,7 +105,7 @@ async def loop():
      
     if now == '03:00':
         channel = client.get_channel(CHANNEL_ID)
-        await channel.send('/throw 29coin 29292.929 4 EquallyDistributed   🍖🍗Plz receive→/catch<:hai_kao:699072592987947117>29meat🍖🍗')
+        await channel.send('/throw 29coin 29292.929 5 EquallyDistributed   🍖🍗Plz receive→/catch<:hai_kao:699072592987947117>29meat🍖🍗')
 
     if now == '03:13':
         channel = client.get_channel(CHANNEL_ID)
