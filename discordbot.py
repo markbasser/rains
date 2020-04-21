@@ -115,7 +115,11 @@ async def loop():
         channel = client.get_channel(CHANNEL_ID)
         await channel.send('Plz.<:kanngaeru:699072662382837881> give me?【/tip 29coin *** @🌈Rains☔ 】Tip🍖')
         
-    if now == '03:16':
+    if now == '03:15':
+        channel = client.get_channel(CHANNEL_ID)
+        await channel.send('<:good01:699581068285706301> ☑🥩29coin tip please. If you tip 29coins of 10000 or 100000, in return, I will tip JPNY COIN for a while!【/tip 29coin <@700176826282147851>】') 
+        
+    if now == '03:25':
         channel = client.get_channel(CHANNEL_ID)
         await channel.send('https://media.discordapp.net/attachments/701765831268368474/701767323304067133/hty.png ') 
 
@@ -235,6 +239,10 @@ async def loop():
         channel = client.get_channel(CHANNEL_ID)
         await channel.send('Plz.<:kanngaeru:699072662382837881>I am hungry again, so give me 【/tip 29coin *** @🌈Rains☔ 】[meatcoin]Tip🍖')
     
+    if now == '08:47':
+        channel = client.get_channel(CHANNEL_ID)
+        await channel.send('<:good01:699581068285706301> ☑🥩29coin tip please. If you tip 29coins of 10000 or 100000, in return, I will tip JPNY COIN for a while!【/tip 29coin <@700176826282147851>】')
+      
     if now == '09:00':
         channel = client.get_channel(CHANNEL_ID)
         await channel.send('https://media.discordapp.net/attachments/701765831268368474/701767323304067133/hty.png ')
@@ -253,7 +261,7 @@ async def loop():
 
     if now == '09:57':
         channel = client.get_channel(CHANNEL_ID)
-        await channel.send('<https://media.discordapp.net/attachments/701765831268368474/701767349828714606/hg.png ') 
+        await channel.send('https://media.discordapp.net/attachments/701765831268368474/701767349828714606/hg.png ') 
         
     if now == '10:00':
         channel = client.get_channel(CHANNEL_ID)
@@ -329,7 +337,7 @@ async def loop():
     
     if now == '12:39':
         channel = client.get_channel(CHANNEL_ID)
-        await channel.send('https://cdn.discordapp.com/attachments/701765831268368474/701767323304067133/hty.png ') 
+        await channel.send('<:good01:699581068285706301> ☑🥩29coin tip please. If you tip 29coins of 10000 or 100000, in return, I will tip JPNY COIN for a while!【/tip 29coin <@700176826282147851>】I want to eat my meat🍖')
       
     if now == '13:14':
         channel = client.get_channel(CHANNEL_ID)
