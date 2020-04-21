@@ -375,6 +375,10 @@ async def loop():
         channel = client.get_channel(CHANNEL_ID)
         await channel.send('https://cdn.discordapp.com/attachments/701765831268368474/701767323304067133/hty.png ')    
 
+    if now == '13:57':
+        channel = client.get_channel(CHANNEL_ID)
+        await channel.send('<:hai_kao:699072592987947117><:hai_kao:699072592987947117><:hai_kao:699072592987947117>   ')      
+        
     if now == '14:10':
         channel = client.get_channel(CHANNEL_ID)
         await channel.send('/rain JPYN 10 ActiveUserOnly  <:good01:699581068285706301><:rain:699585875687899247><:JPYNdisco:698471276498649168><:gn:699792795363311676> ')  
