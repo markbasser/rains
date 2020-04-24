@@ -435,6 +435,10 @@ async def loop():
         channel = client.get_channel(CHANNEL_ID)
         await channel.send('/rain BEN 5 ActiveUserOnly  <:BENKEICOIN04:698471407650209832><:good01:699581068285706301><:rain:699585875687899247> ')  
 
+    if now == '20:00':
+        channel = client.get_channel(CHANNEL_ID)
+        await channel.send('<:cafe:699769671234355230><:gm:699792760651120671>')        
+        
     if now == '20:40':
         channel = client.get_channel(CHANNEL_ID)
         await channel.send('/rain JPYN 5 ActiveUserOnly  🌈 <:JPYNdisco:698471276498649168> ') 
