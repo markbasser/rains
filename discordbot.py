@@ -63,10 +63,18 @@ async def loop():
         channel = client.get_channel(CHANNEL_ID)
         await channel.send('/rain BEN 333 ActiveUserOnly  <:good01:699581068285706301><:gm:699792760651120671><:benkeicoinsl:698471387064696833>')
 
+    if now == '00:28':
+        channel = client.get_channel(CHANNEL_ID)
+        await channel.send('🎶')         
+        
     if now == '00:38':
         channel = client.get_channel(CHANNEL_ID)
         await channel.send('<:heart02:699580174911668225>Okay,later👋')     
 
+    if now == '01:05':
+        channel = client.get_channel(CHANNEL_ID)
+        await channel.send('🥳') 
+        
     if now == '01:29':
         channel = client.get_channel(CHANNEL_ID)
         await channel.send('@everyone <:heart02:699580174911668225>are you ready Okay')     
