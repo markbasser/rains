@@ -471,8 +471,128 @@ async def loop():
         channel = client.get_channel(CHANNEL_ID)
         await channel.send('/rain JPYN 20 ActiveUserOnly  <:good01:699581068285706301>🌈<:JPYNdisco:698471276498649168>HelloAll⭐')
   
-
 #ループ処理実行
 loop.start()
+
+@client.event
+async def on_message(message):
+    """メッセージを処理"""
+    if message.author.bot:  # ボットのメッセージをハネる
+        return
+
+    if message.content == "<:hello:699779689127870514><:hello:699779689127870514>":
+        # チャンネルへメッセージを送信
+        await message.channel.send(f"<:hello:699779689127870514><:hello:699779689127870514>")  # f文字列（フォーマット済み文字列リテラル）
+        
+    if message.content == "<:hai_kao:699072592987947117> <:gn:699792795363311676>":
+        # チャンネルへメッセージを送信
+        await message.channel.send(f"<:hai_kao:699072592987947117> <:gn:699792795363311676>")  # f文字列（フォーマット済み文字列リテラル）
+        
+    if message.content == "<:hai_kao:699072592987947117> <:hai_kao:699072592987947117> <:hai_kao:699072592987947117> <:hai_kao:699072592987947117>":
+        # チャンネルへメッセージを送信
+        await message.channel.send(f"<:hai_kao:699072592987947117> <:hai_kao:699072592987947117> <:hai_kao:699072592987947117> <:hai_kao:699072592987947117>")  # f文字列（フォーマット済み文字列リテラル）
+        
+    if message.content == "<:hai_kao:699072592987947117> <:hai_kao:699072592987947117> <:hai_kao:699072592987947117> <:hai_kao:699072592987947117> <:hai_kao:699072592987947117>":
+        # チャンネルへメッセージを送信
+        await message.channel.send(f"<:hai_kao:699072592987947117> <:hai_kao:699072592987947117> <:hai_kao:699072592987947117> <:hai_kao:699072592987947117> <:hai_kao:699072592987947117>")  # f文字列（フォーマット済み文字列リテラル）
+
+    if message.content == "🥳🎉":
+        # チャンネルへメッセージを送信
+        await message.channel.send(f"🥳🎉")  # f文字列（フォーマット済み文字列リテラル）
+        
+    if message.content == "ThankYou":
+        # チャンネルへメッセージを送信
+        await message.channel.send(f"Dear💛{message.author.mention} 💛No. Thank YOU! ")  # f文字列（フォーマット済み文字列リテラル）
+        
+    if message.content == "Thank You":
+        # チャンネルへメッセージを送信
+        await message.channel.send(f"Dear💚 {message.author.mention} 💚No. Thank YOU! ")  # f文字列（フォーマット済み文字列リテラル）
+    
+    if message.content == "Thanks":
+        # チャンネルへメッセージを送信
+        await message.channel.send(f"Dear💙 {message.author.mention} 💙No. Thank YOU! ")  # f文字列（フォーマット済み文字列リテラル）
+    
+    if message.content == "thankyou!":
+        # チャンネルへメッセージを送信
+        await message.channel.send(f"Dear♥ {message.author.mention}♥No. Thank YOU! ")  # f文字列（フォーマット済み文字列リテラル）
+    
+    if message.content == "Thank U":
+        # チャンネルへメッセージを送信
+        await message.channel.send(f"Dear♥ {message.author.mention}♥No. Thank YOU! ")  # f文字列（フォーマット済み文字列リテラル）
+            
+    if message.content == "Thank you!!":
+        # チャンネルへメッセージを送信
+        await message.channel.send(f"Dear💗 {message.author.mention} 💗No. Thank YOU! ")  # f文字列（フォーマット済み文字列リテラル）
+    
+    if message.content == "Thanks!!":
+        # チャンネルへメッセージを送信
+        await message.channel.send(f"Dear💕 {message.author.mention} 💕No. Thank YOU! ")  # f文字列（フォーマット済み文字列リテラル）
+        
+    if message.content == "ty!":
+        # チャンネルへメッセージを送信
+        await message.channel.send(f"😃 Dear {message.author.mention} Thx! ")  # f文字列（フォーマット済み文字列リテラル）
+    
+    if message.content == "Thx":
+        # チャンネルへメッセージを送信
+        await message.channel.send(f"😃 Dear {message.author.mention} Thx! ")  # f文字列（フォーマット済み文字列リテラル）
+    
+    if message.content == "ありがとう。":
+        # チャンネルへメッセージを送信
+        await message.channel.send(f"<:good01:699581068285706301>💚{message.author.mention}さん💚 No. Thank YOU! ")  # f文字列（フォーマット済み文字列リテラル）
+    
+    if message.content == "ありがとうございます。":
+        # チャンネルへメッセージを送信
+        await message.channel.send(f"<:good01:699581068285706301>💗{message.author.mention}さん💗 No. Thank YOU! ")  # f文字列（フォーマット済み文字列リテラル）
+        
+    if message.content == "<:ty:699857337980026930><:hai_kao:699072592987947117>":
+        # チャンネルへメッセージを送信
+        await message.channel.send(f"<:ty:699857337980026930><:hai_kao:699072592987947117>")  # f文字列（フォーマット済み文字列リテラル）
+  
+    
+    elif message.content == "r/link":
+        # リアクションアイコンを付けたい
+        q = await message.channel.send("/link ")
+        [await q.add_reaction(i) for i in ('⭕', '❌')]  # for文の内包表記
+
+    elif message.content == "r/language":
+        # リアクションアイコンを付けたい
+        q = await message.channel.send(" /language EN ")
+        [await q.add_reaction(i) for i in ('⭕', '❌')]  # for文の内包表記
+              
+    elif message.content == "r/accept":
+        # リアクションアイコンを付けたい
+        q = await message.channel.send(" /accept ")
+        [await q.add_reaction(i) for i in ('⭕', '🔑')]  # for文の内包表記
+
+    elif message.content == "b/benzan":
+        # リアクションアイコンを付けたい
+        q = await message.channel.send(" /info ben ")
+        [await q.add_reaction(i) for i in ('⭕', '🔑')]  # for文の内包表記
+        
+    elif message.content == "b/jpynzan":
+        # リアクションアイコンを付けたい
+        q = await message.channel.send(" /info jpyn ")
+        [await q.add_reaction(i) for i in ('⭕', '🔑')]  # for文の内包表記      
+        
+    elif message.content == "b/bgptzan":
+        # リアクションアイコンを付けたい
+        q = await message.channel.send(" /info bgpt ")
+        [await q.add_reaction(i) for i in ('⭕', '🔑')]  # for文の内包表記
+    
+    elif message.content == "b/kenjzan":
+        # リアクションアイコンを付けたい
+        q = await message.channel.send(" /info kenj ")
+        [await q.add_reaction(i) for i in ('⭕', '🔑')]  # for文の内包表記
+             
+    elif message.content == "b/sprtszan":
+        # リアクションアイコンを付けたい
+        q = await message.channel.send(" /info sprts ")
+        [await q.add_reaction(i) for i in ('⭕', '🔑')]  # for文の内包表記 
+
+    elif message.content == "b/29zan":
+        # リアクションアイコンを付けたい
+        q = await message.channel.send(" /info 29coin ")
+        [await q.add_reaction(i) for i in ('⭕', '🔑')]  # for文の内包表記 
+
 # Botの起動とDiscordサーバーへの接続
 client.run(token)
