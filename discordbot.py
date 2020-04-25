@@ -470,9 +470,10 @@ async def loop():
     if now == '23:58':
         channel = client.get_channel(CHANNEL_ID)
         await channel.send('/rain JPYN 20 ActiveUserOnly  <:good01:699581068285706301>🌈<:JPYNdisco:698471276498649168>HelloAll⭐')
-  
+        
 #ループ処理実行
 loop.start()
+
 
 @client.event
 async def on_message(message):
@@ -547,7 +548,6 @@ async def on_message(message):
     if message.content == "<:ty:699857337980026930><:hai_kao:699072592987947117>":
         # チャンネルへメッセージを送信
         await message.channel.send(f"<:ty:699857337980026930><:hai_kao:699072592987947117>")  # f文字列（フォーマット済み文字列リテラル）
-  
     
     elif message.content == "r/link":
         # リアクションアイコンを付けたい
