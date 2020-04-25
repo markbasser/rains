@@ -33,7 +33,7 @@ async def loop():
     
     if now == '00:29':
         channel = client.get_channel(CHANNEL_ID)
-        await channel.send('@everyone Mornin!Rain☔ is 1min later.<:good01:699581068285706301>51120671>')  
+        await channel.send('@everyone Mornin!Rain☔ is 1min later.<:good01:699581068285706301>')  
     
     if now == '00:30':
         channel = client.get_channel(CHANNEL_ID)
