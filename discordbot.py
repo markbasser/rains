@@ -229,7 +229,7 @@ async def loop():
 
     if now == '08:00':
         channel = client.get_channel(CHANNEL_ID)
-        await channel.send('/rain JPYN 35 ActiveUserOnly  <:rain:699585875687899247><:JPYNdisco:698471276498649168><:hello:699779689127870514>')
+        await channel.send('/rain JPYN 35 ActiveUserOnly  <:rain:699585875687899247><:JPYNdisco:698471276498649168><:hello1:713004241131667528>')
      
     if now == '08:30':
         channel = client.get_channel(CHANNEL_ID)
@@ -489,9 +489,9 @@ async def on_message(message):
     if message.author.bot:  # ボットのメッセージをハネる
         return
 
-    if message.content == "<:hello:699779689127870514><:hello:699779689127870514>":
+    if message.content == "<:hello1:713004241131667528> <:hello1:713004241131667528>":
         # チャンネルへメッセージを送信
-        await message.channel.send(f"<:hello:699779689127870514><:hello:699779689127870514>")  # f文字列（フォーマット済み文字列リテラル）
+        await message.channel.send(f"<:hello1:713004241131667528>")  # f文字列（フォーマット済み文字列リテラル）
         
     if message.content == "<:hai_kao:699072592987947117> <:gn:699792795363311676>":
         # チャンネルへメッセージを送信
