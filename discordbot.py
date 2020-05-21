@@ -209,7 +209,7 @@ async def loop():
         
     if now == '06:00':
         channel = client.get_channel(CHANNEL_ID)
-        await channel.send('/rain JPYN 30 ActiveUserOnly  <:rain:699585875687899247><:JPYNdisco:698471276498649168><:hello:699779689127870514>')
+        await channel.send('/rain JPYN 30 ActiveUserOnly  <:rain:699585875687899247><:JPYNdisco:698471276498649168><:hello1:713004241131667528>')
     
     if now == '06:30':
         channel = client.get_channel(CHANNEL_ID)
