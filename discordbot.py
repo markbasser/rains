@@ -511,11 +511,11 @@ async def on_message(message):
         
     if message.content == "ThankYou":
         # チャンネルへメッセージを送信
-        await message.channel.send(f"Dear💛{message.author.mention} 💛No. Thank YOU! ")  # f文字列（フォーマット済み文字列リテラル）
+        await message.channel.send(f"Dear💛{message.author.mention} 💛. Thank YOU! ")  # f文字列（フォーマット済み文字列リテラル）
         
     if message.content == "Thank You":
         # チャンネルへメッセージを送信
-        await message.channel.send(f"Dear💚 {message.author.mention} 💚No. Thank YOU! ")  # f文字列（フォーマット済み文字列リテラル）
+        await message.channel.send(f"Dear💚 {message.author.mention} 💚. Thank YOU! ")  # f文字列（フォーマット済み文字列リテラル）
     
     if message.content == "Thanks":
         # チャンネルへメッセージを送信
@@ -523,19 +523,19 @@ async def on_message(message):
     
     if message.content == "thankyou!":
         # チャンネルへメッセージを送信
-        await message.channel.send(f"Dear♥ {message.author.mention}♥No. Thank YOU! ")  # f文字列（フォーマット済み文字列リテラル）
+        await message.channel.send(f"Dear♥ {message.author.mention}♥. Thank YOU! ")  # f文字列（フォーマット済み文字列リテラル）
     
     if message.content == "Thank U":
         # チャンネルへメッセージを送信
-        await message.channel.send(f"Dear♥ {message.author.mention}♥No. Thank YOU! ")  # f文字列（フォーマット済み文字列リテラル）
+        await message.channel.send(f"Dear♥ {message.author.mention}♥. Thank YOU! ")  # f文字列（フォーマット済み文字列リテラル）
             
     if message.content == "Thank you!!":
         # チャンネルへメッセージを送信
-        await message.channel.send(f"Dear💗 {message.author.mention} 💗No. Thank YOU! ")  # f文字列（フォーマット済み文字列リテラル）
+        await message.channel.send(f"Dear💗 {message.author.mention} 💗. Thank YOU! ")  # f文字列（フォーマット済み文字列リテラル）
     
     if message.content == "Thanks!!":
         # チャンネルへメッセージを送信
-        await message.channel.send(f"Dear💕 {message.author.mention} 💕No. Thank YOU! ")  # f文字列（フォーマット済み文字列リテラル）
+        await message.channel.send(f"Dear💕 {message.author.mention} 💕. Thank YOU! ")  # f文字列（フォーマット済み文字列リテラル）
         
     if message.content == "ty!":
         # チャンネルへメッセージを送信
@@ -547,11 +547,11 @@ async def on_message(message):
     
     if message.content == "ありがとう。":
         # チャンネルへメッセージを送信
-        await message.channel.send(f"<:good01:699581068285706301>💚{message.author.mention}さん💚 No. Thank YOU! ")  # f文字列（フォーマット済み文字列リテラル）
+        await message.channel.send(f"<:good01:699581068285706301>💚{message.author.mention}さん💚. Thank YOU! ")  # f文字列（フォーマット済み文字列リテラル）
     
     if message.content == "ありがとうございます。":
         # チャンネルへメッセージを送信
-        await message.channel.send(f"<:good01:699581068285706301>💗{message.author.mention}さん💗 No. Thank YOU! ")  # f文字列（フォーマット済み文字列リテラル）
+        await message.channel.send(f"<:good01:699581068285706301>💗{message.author.mention}さん💗. Thank YOU! ")  # f文字列（フォーマット済み文字列リテラル）
         
     if message.content == "<:ty:699857337980026930><:hai_kao:699072592987947117>":
         # チャンネルへメッセージを送信
