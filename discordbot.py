@@ -125,7 +125,7 @@ async def loop():
         
     if now == '03:15':
         channel = client.get_channel(CHANNEL_ID)
-        await channel.send('<:good01:699581068285706301> ☑🥩29coin tip please. If you tip 29coins of 10000 or 100000, in return, I will tip JPNY COIN for a while!【/tip 29coin <@700176826282147851>】') 
+        await channel.send('<:goo1:721561872352018522>  ☑🥩29coin tip please. If you tip 29coins of 10000 or 100000, in return, I will tip JPNY COIN for a while!【/tip 29coin <@700176826282147851>】') 
         
     if now == '03:25':
         channel = client.get_channel(CHANNEL_ID)
@@ -133,7 +133,7 @@ async def loop():
 
     if now == '03:26':
         channel = client.get_channel(CHANNEL_ID)
-        await channel.send('<:good:699580636448423936>Thank you! for the MeatCoin🥩29coin<:ty:699857337980026930>Tip! Will eat later.🍖')      
+        await channel.send('<:goo1:721561872352018522> Thank you! for the MeatCoin🥩29coin<:ty:699857337980026930>Tip! Will eat later.🍖')      
         
     if now == '03:27':
         channel = client.get_channel(CHANNEL_ID)
@@ -257,7 +257,7 @@ async def loop():
 
     if now == '09:25':
         channel = client.get_channel(CHANNEL_ID)
-        await channel.send('<:good:699580636448423936>Thank you!for the MeatCoin(29coin)Tip! I will eat meat again tomorrow.🍖<:ty:699857337980026930>')
+        await channel.send('<:goo1:721561872352018522> Thank you!for the MeatCoin(29coin)Tip! I will eat meat again tomorrow.🍖<:ty:699857337980026930>')
         
     if now == '09:30':
         channel = client.get_channel(CHANNEL_ID)
