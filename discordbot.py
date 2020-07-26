@@ -409,7 +409,7 @@ async def loop():
         
     if now == '15:29':
         channel = client.get_channel(CHANNEL_ID)
-        await channel.send('@here 👆/catch?<:aloha:699581550777597992> ') 
+        await channel.send('@here 👆/catch?<:aloha:699581550777597992> <:ex_now:736528729949601823> ') 
         
     if now == '15:30':
         channel = client.get_channel(CHANNEL_ID)
