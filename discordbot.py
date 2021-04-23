@@ -6,7 +6,7 @@ import discord
 from datetime import datetime 
 
 token = os.environ['DISCORD_BOT_TOKEN']
-CHANNEL_ID =698653628176531478  #チャンネルID
+CHANNEL_ID =741553045481062461  #チャンネルID
 
 # 接続に必要なオブジェクトを生成
 client = discord.Client()
